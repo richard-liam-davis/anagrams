@@ -1,0 +1,15 @@
+{
+    "env": {
+        "node": true,
+        "es6": true,
+        "commonjs": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "generator-star-spacing": ["error", {"before": false, "after": true }]
+    }
+}
