@@ -2,7 +2,7 @@
 
 This solution is written in node.js. 
 
-To run the code, you will need to have node.js installed. Go to the root of the project and type `node app.js ./data/example1.txt`. This command will output anagram groups to the console, or write 'File not found' if it was unable to retrieve an appropriate file.
+To run the code, you will need to have node.js and yarn installed. Go to the root of the project and run `yarn install`. To run tests, run `yarn test`. Typing `node app.js ./data/example1.txt` will output anagram groups to the console, or write 'File not found' if it was unable to retrieve an appropriate file.
 
 There are two main source files:
 
