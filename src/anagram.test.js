@@ -17,18 +17,3 @@ test('does example1', async () => {
   expect(resultsArray).toContain('hello');
 });
 
-
-// test('does perform with example3 data', async () => {
-
-//   let t0 = performance.now();
-
-//   let resultsArray = [];
-
-//   anagramOptions.resultOutput = result => resultsArray.push(result.join(','));
-
-//   await anagrams('./data/example3.txt', anagramOptions);
-  
-//   var t1 = performance.now(); // used to give ballpark timings while I optimised
-//   console.log(t1-t0);
-//   expect(t1 - t0).toBeLessThan(.1);
-// });
